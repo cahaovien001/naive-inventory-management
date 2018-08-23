@@ -1,0 +1,26 @@
+// inspired by TOPS Purchase Order Book of Records
+
+LABEL: Purchase Order
+No.
+Date
+Freight on Board
+Via
+Terms
+Date Required
+To
+Ship To
+LABEL: Please ship the following:
+Ordered (Heading)
+Recieved (Heading)
+Stock# (Heading)
+Description (Heading)
+Price (Heading)
+Per (Heading)
+Amount (Heading)
+STYLE: Alternate Color Rows Light Color
+LABEL: IMPORTANT: Our order number must appear on invoices and packages, acknowledge if unable to ship on time.
+Ordered By (Heading)
+LOGO: Company logo
+XXXX [Slip No.]
+LABEL: Original (Boolean)
+XX-XX [Book|Section No. - Page No.]

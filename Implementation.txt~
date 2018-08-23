@@ -1,0 +1,46 @@
+// inspired by TOPS Purchase Order Book of Records
+
+Form Requirements:                  Implementation:
+
+Not Needed To Implement Class Object:
+-------------------------------------------------------------------------------
+LABEL: Purchase Order		    Text Label
+No.    				    Unsigned Integer (Label, Field)
+Date				    Date (Java Implementation or Lib)
+Freight on Board		    String
+Via	   			    String
+Terms			   	    String
+Date Required		            Date (Java Implementation or Lib)
+LABEL: Please ship the following:   Text Label
+
+
+STYLE: Alternate Color Rows         CSS/SWING
+STYLE: Light Color     		    CSS/SWING
+LABEL: IMPORTANT: Our order number  Text Label
+must appear on invoices and
+packages, acknowledge if unable to
+ship on time.
+Ordered By (Heading)		    String::Database Field (Naive Impl. -> SQL)
+LOGO: Company logo		    Image
+
+XXXX [Slip No.]			    Unsigned Integer
+LABEL: Original (Boolean)	    Boolean (Text Label)
+
+Todo
+------------------------------------------------------------------------------
+[Collection]
+Ordered (Heading)      		    Int::Database Field (Naive Impl. -> SQL)
+Recieved (Heading)		    Int::Database Field (Naive Impl. -> SQL)
+Stock# (Heading)		    String::Database Field (Naive Impl. -> SQL)
+Description (Heading)		    String::Database Field (Naive Impl. -> SQL)
+Price (Heading)			    Float::Database Field (Naive Impl. -> SQL)
+Per (Heading)			    Int::Database Field (Naive Impl. -> SQL)
+Amount (Heading)		    Float::Database Field (Naive Impl. -> SQL)
+
+
+
+Done
+------------------------------------------------------------------------------
+XX-XX [Book|Section No. - Page No.] Class Grouping Object (Integer1 + Integer2)
+To   				    Class Grouping Object (Name + Address)
+Ship To				    Class Grouping Object (Name + Address)                                    Print Function Formats to "XX-XX"
